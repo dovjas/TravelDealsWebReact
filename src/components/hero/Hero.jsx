@@ -8,7 +8,7 @@ const Hero = ()=> {
         <form>
             <div className={styles.location}>
                 <label>Location</label>
-                <input type="text" placeholder="Find your destination"></input>
+                <input className={styles.inputText} type="text" placeholder="Find your destination"></input>
             </div>
             <div className={styles.from}>
                 <span className={styles.border}></span>
@@ -20,8 +20,8 @@ const Hero = ()=> {
                 <label>Until</label>
                 <input type="date"></input>
             </div>            
-            <div className={styles.searchBtn}>
-                {/* <button>Search</button> */}
+            <div className={styles.searchBtnDiv}>
+                <button className={styles.heroBtn}>Search</button>
                 </div>                        
         </form>
     </div>

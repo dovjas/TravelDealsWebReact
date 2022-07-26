@@ -8,11 +8,48 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
+    max-width: 700px;
     width: 100%;
-    gap: 2rem;
+    gap: 1.5rem;
     margin: auto;
     padding: 22px 25px;
     background-color: rgba(247,247,247,0.5);
     border-radius: 20px;
+}
+form input{
+    background-color: transparent;
+    border: none;
+}
+form input:focus{
+    outline: none;
+}
+form .inputText{
+    width: 200px;
+    font-size: 1rem;
+}
+form label{
+    padding-right: 1rem;
+    font-weight: 700;
+}
+.searchBtnDiv{
+    display: flex;
+    align-items: center;
+}
+.heroBtn{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width:720px){
+    form{
+        /* display: flex; */
+        flex-direction: column;
+        max-width: 100%;
+        margin:  auto 1rem;
+    }
+    .inputText, .from, .until{
+        width: 100%;
+        text-align: center;    
+    }
 }
