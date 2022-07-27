@@ -1,16 +1,35 @@
 .container{
     max-width: 1040px;
     margin: auto;
-    padding: 1rem;
+    padding: .5rem;
+    display:flex ;
 }
-form{
-   border:2 px solid blue;
+.banner{
+    display: flex;
+}
+.banner img{
+    width: 400px;
+}
+
+.container form{
    display: flex;
+   align-items: center;
+   justify-content: center;
    flex-direction: column;
 }
 .title{
     text-align: center;
     font-size: 1.5rem;
 }
-.formInputs{
+form input{
+    border-bottom: 1px solid blue;
+    width: 300px;
+}
+textarea{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
 }
