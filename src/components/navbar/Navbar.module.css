@@ -39,6 +39,7 @@
         left: 0;
         right: 0;
         transition: top 1s;
+        background-color: #fff;
     }
     .active{
         top: 0;

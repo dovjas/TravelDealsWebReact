@@ -4,6 +4,8 @@ import Hero from "./components/hero/Hero"
 import Destinations from "./components/destinations/Destinations";
 import Travel from "./components/travel/Travel";
 import Offers from "./components/offers/Offers";
+import Contact from "./components/contact/Contact";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Destinations />
       <Travel />
       <Offers />
+      <Contact />
     </div>
 )};
 

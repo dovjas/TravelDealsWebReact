@@ -43,3 +43,16 @@
     padding: 1rem;
     font-size:1rem;
 }
+
+
+@media screen and (max-width:768px){
+    .offers .offersContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:500px){
+    .offers .offersContainer{
+        grid-template-columns:1fr;
+    }
+}
