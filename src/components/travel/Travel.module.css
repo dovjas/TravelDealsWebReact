@@ -1,0 +1,37 @@
+.travel{
+    max-width: 1040px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    margin: auto;
+    padding: 1rem;
+}
+.travel img{
+    max-width:400px;
+}
+.travel h2{
+    padding: 50px 0 20px 0;
+}
+.travel p{
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.travel button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:920px){
+    .travel{
+        grid-template-columns: 1fr;
+    }
+    .travel h2{
+        padding: 10px 0 20px 0;
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+    }
+}

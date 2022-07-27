@@ -2,13 +2,13 @@
     display: flex;
     width: 100%;
     height: 400px;
-    background: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80') no-repeat center/cover;
+    background: url('https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg?w=900&t=st=1658901774~exp=1658902374~hmac=d2cf0d9bd75565fa47c71952fe6fd6a441298e5b1c10c854bcc73f7437c42719') no-repeat center/cover;
 }
 form{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 700px;
+    max-width: 1040px;
     width: 100%;
     gap: 1.5rem;
     margin: auto;
