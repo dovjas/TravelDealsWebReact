@@ -4,9 +4,10 @@
 }
 .footer .container{
     max-width: 1040px;
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
     margin: auto;
     display: grid;
+    text-align: center;
     grid-template-columns: 1fr 1fr 2fr;
     overflow: hidden;
 }
@@ -26,4 +27,15 @@
     border-radius: 3px;
     width: 300px;
     border: 1px solid blue;
+}
+
+@media screen and (max-width:960px) {
+    .footer .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+    .footer .subsContainer{
+    }
 }
