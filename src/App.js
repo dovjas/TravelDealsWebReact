@@ -5,7 +5,7 @@ import Destinations from "./components/destinations/Destinations";
 import Travel from "./components/travel/Travel";
 import Offers from "./components/offers/Offers";
 import Contact from "./components/contact/Contact";
-
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Travel />
       <Offers />
       <Contact />
+      <Footer />
     </div>
 )};
 
