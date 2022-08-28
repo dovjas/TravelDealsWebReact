@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -17,9 +18,9 @@ const Footer = () => {
                 <div className={styles.socialContainer}>
                     <h2>Social</h2>
                     <ul>
-                        <li><a href='#'>Link</a></li>
-                        <li><a href='#'>Link</a></li>
-                        <li><a href='#'>Link</a></li>
+                        <BsFacebook style={{marginBottom:'5px',fontSize:'1.2rem', color:'green'}}><li><a href='#'>Link</a></li></BsFacebook> 
+                        <BsInstagram style={{marginBottom:'5px',fontSize:'1.2rem'}}><li><a href='#'>Link</a></li></BsInstagram>
+                        <BsLinkedin style={{fontSize:'1.2rem'}} ><li><a href='#'>Link</a></li></BsLinkedin>   
                     </ul>
                 </div>        
                 <div className={styles.subsContainer}>

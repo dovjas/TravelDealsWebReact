@@ -26,6 +26,8 @@ form input:focus{
 form .inputText{
     width: 250px;
     font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
 }
 form label{
     color:blue;

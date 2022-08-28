@@ -11,7 +11,7 @@ const Destinations = () => {
   return (
     <div className={styles.destinations}>
         <div className={styles.mainTitle}>
-            <h1>Find your destinations</h1>
+            <h1>Find your next destination</h1>
             <div className={styles.subTitleText}>
                 <p>
                     <span>Explore the world's most exciting places</span>
@@ -47,27 +47,27 @@ const Destinations = () => {
         >
             <SwiperSlide>
                 <Card image='https://images.unsplash.com/photo-1523510808004-1c4b59b5db2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-                make='pyramid' />
+                make='Egypt' />
             </SwiperSlide>
             <SwiperSlide>
                 <Card image='https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-                make='london' />
+                make='United Kingdom' />
             </SwiperSlide>
             <SwiperSlide>
                 <Card image='https://images.unsplash.com/photo-1547483029-77784da27709?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
-                make='tel aviv' />
+                make='Israel' />
             </SwiperSlide>
             <SwiperSlide>
                 <Card image='https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-                make='barcelona' />
+                make='Spain' />
             </SwiperSlide>
             <SwiperSlide>
                 <Card image='https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
-                make='dubai' />
+                make='United Arab Emirates' />
             </SwiperSlide>
             <SwiperSlide>
                 <Card image='https://images.unsplash.com/photo-1503899036084-c55cdd92da26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
-                make='tokyo' />
+                make='Japan' />
             </SwiperSlide>
         </Swiper>
         </div>
