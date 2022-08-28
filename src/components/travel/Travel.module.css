@@ -1,0 +1,67 @@
+.travel{
+    max-width: 1040px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    margin: auto;
+    padding: 1rem;
+}
+.travel img{
+    max-width:400px;
+}
+.travel h2{
+    padding: 50px 0 20px 0;
+}
+.travel p{
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 20px;
+}
+button{
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 10px 20px;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    }
+    button:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+      }
+      
+button:active {
+    transform: scale(1.025);
+    }
+
+
+@media screen and (max-width:920px){
+    .travel{
+        grid-template-columns: 1fr;
+    }
+    .travel h2{
+        padding: 10px 0 20px 0;
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+    }
+}
