@@ -22,7 +22,7 @@ const Hero = ()=> {
             </div>            
             <div className={styles.searchBtnDiv}>
                 <button className={styles.heroBtn}>Search</button>
-                </div>                        
+            </div>                        
         </form>
     </div>
   )
