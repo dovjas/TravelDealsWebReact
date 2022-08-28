@@ -23,19 +23,19 @@ const Offers = () => {
             <div className={styles.offersCard}>
                 <img src="https://img.freepik.com/premium-vector/sale-special-offer-price-tags-design_1588-573.jpg?w=740"></img>
                 <div className={styles.content}>
-                    <h3>Offer 1</h3>
+                    <h3>Offer 2</h3>
                 </div>
             </div>
             <div className={styles.offersCard}>
                 <img src="https://img.freepik.com/premium-vector/sale-special-offer-price-tags-design_1588-573.jpg?w=740"></img>
                 <div className={styles.content}>
-                    <h3>Offer 1</h3>
+                    <h3>Offer 3</h3>
                 </div>
             </div>
             <div className={styles.offersCard}>
                 <img src="https://img.freepik.com/premium-vector/sale-special-offer-price-tags-design_1588-573.jpg?w=740"></img>
                 <div className={styles.content}>
-                    <h3>Offer 1</h3>
+                    <h3>Offer 4</h3>
                 </div>
             </div>
         </div>
