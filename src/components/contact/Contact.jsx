@@ -7,7 +7,7 @@ const Contact = () => {
     <div className={styles.title}>
         <h1>Contact Us</h1>
     </div>
-    <div className={styles.formContainer}>
+    <div className={styles.formContainer} id='contact'>
         <div className={styles.banner}>
             <img src='https://img.freepik.com/free-vector/email-marketing-internet-chatting-24-hours-support_335657-3009.jpg?w=740&t=st=1658947679~exp=1658948279~hmac=428acd12c5b120c6fac89ae8d13b98c94d91271e97ef3f866349d46ea8c5673f'></img>
         </div>

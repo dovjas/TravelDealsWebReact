@@ -4,7 +4,7 @@ import styles from './Offers.module.css'
 
 const Offers = () => {
   return (
-    <div className={styles.offers}>
+    <div className={styles.offers} id='offers'>
         <div className={styles.heading}>
             <h2>Hot Offers</h2>
             <div className={styles.textBg}>

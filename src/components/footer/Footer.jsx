@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Footer.module.css'
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import {Link} from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -9,12 +10,20 @@ const Footer = () => {
             <div className={styles.companyContainer}>
                 <h2>Company</h2>
                     <ul>
-                        <li><a href='#'>About</a></li>
-                        <li><a href='#'>Destinations</a></li>
-                        <li><a href='#'>Offers</a></li>
-                        <li><a href='#'>Careers</a></li>
+                      <li>
+                        <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
+                      </li> 
+                      <li>
+                        <Link to="destinations" spy={true} smooth={true} offset={50} duration={500}>Destinations</Link>
+                      </li>
+                      <li> 
+                        <Link to="offers" spy={true} smooth={true} offset={50} duration={500}>Offers</Link>
+                      </li>
+                      <li>  
+                        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
+                      </li>
                     </ul>
-                    </div>
+            </div>
                 <div className={styles.socialContainer}>
                     <h2>Social</h2>
                     <ul>

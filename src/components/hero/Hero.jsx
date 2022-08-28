@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = ()=> {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id='hero'>
         <form>
             <div className={styles.location}>
                 <label>LOCATION</label>

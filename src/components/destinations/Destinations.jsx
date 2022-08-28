@@ -9,7 +9,7 @@ import 'swiper/css/navigation'
 
 const Destinations = () => {
   return (
-    <div className={styles.destinations}>
+    <div className={styles.destinations} id='destinations'>
         <div className={styles.mainTitle}>
             <h1>Find your next destination</h1>
             <div className={styles.subTitleText}>

@@ -17,6 +17,7 @@
 .footer li{
     padding-bottom: .3rem;
     display: block;
+    cursor: pointer;
 }
 .footer .socialContainer ul{
     display: flex;
