@@ -1,4 +1,4 @@
-View: https://dj-traveldeals.herokuapp.com/
+Live: https://dj-traveldeals.herokuapp.com/
 
 
 # Getting Started with Create React App
